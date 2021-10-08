@@ -17,7 +17,7 @@ public class MakeChange {
 		
 		changeDue = cashGiven - amountDue;
 		
-//		int pennies, nickles, dimes, quarters, 
+		int pennies, nickles, dimes, quarters, dollars;
 		
 		
 		
@@ -32,9 +32,9 @@ public class MakeChange {
 		}
 		else{
 		
-			//if()
 			
-		System.out.println("The change due is " + changeDue);
+			
+		System.out.printf("The change due is $%.2f", changeDue );
 		System.out.println();
 		}
 		
